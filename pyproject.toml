@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "stuff"
+version = "0.0.0"
+description = ""
+authors = ["devildefu"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygobject = "^3.44.1"
+pycairo = "^1.23.0"
+
+[tool.poetry.group.dev.dependencies]
+PyGObject-stubs = "^2.6.0"
+mypy = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
